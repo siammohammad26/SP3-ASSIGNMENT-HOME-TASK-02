@@ -1,0 +1,89 @@
+/* Basic reset */
+body, h1, h2, p, blockquote, ol, ul, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #333;
+    padding: 0 1rem;
+}
+
+/* Header styles */
+header {
+    background: #00796b; /* Dark teal background */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+}
+
+/* Blockquote styles */
+blockquote {
+    background: #ffffff; /* White background */
+    border-left: 4px solid #00796b; /* Dark teal border */
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Link styles */
+a {
+    color: #00796b; /* Dark teal color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ol, ul {
+    margin: 1rem 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    border: 1px solid #00796b; /* Dark teal border */
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background: #00796b; /* Dark teal background */
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background: #00796b; /* Dark teal background */
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
